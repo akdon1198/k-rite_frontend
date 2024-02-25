@@ -1,0 +1,90 @@
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.maincontainer h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    
+}
+.maincontainer > div{
+    display: flex;
+    font-family: Open Sans;
+    font-size: 1rem;
+}
+
+.maincontainer > div .section{
+    width: 20rem;
+    height: 10rem;
+    background-color: #F9FCFF;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontainer > div .section > div{
+    margin-bottom: 1rem;
+}
+.maincontainer > div .section h3{
+    font-size: 1.2rem ;
+    font-weight: 400;
+    margin-left: 8px;
+    width: 18rem;
+}
+
+.maincontainer > div .section p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0px;
+}
+.maincontainer > div .section > div{
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer > div .section > div > div{
+    display: flex;
+    align-items: center;
+}
+.maincontainer > div .section > div > div > img{
+    width: 10px;
+}
+.maincontainer > div .priority > div > div > img{
+    width: 10px;
+}
+.maincontainer > div .priority{
+    width: 20rem;
+    height: 10rem;
+    background-color: #F9FCFF;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+.maincontainer > div .priority > div{
+    margin-bottom: 1rem;
+}
+.maincontainer > div .priority h3{
+    font-size: 1.2rem ;
+    font-weight: 400;
+    margin-left: 8px;
+    width: 18rem;
+}
+
+.maincontainer > div .priority p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0px;
+}
+.maincontainer > div .priority > div{
+    display: flex;
+    align-items: center;
+}
+
+.maincontainer > div .priority > div > div{
+    display: flex;
+    align-items: center;
+}

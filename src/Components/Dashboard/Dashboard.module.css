@@ -1,0 +1,182 @@
+.maincontainer{
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+}
+
+.selectedindexbtn{
+    background-color: gray !important;
+}
+.copied{
+    position: absolute;
+    top: 0px;
+    right: 1rem;
+    background-color: #F6FFF9;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #48C1B5;
+}
+
+.selectedbtn{
+    background-color: #63C05B !important;
+}
+.selectedbtnred{
+    background-color: #CF3636!important;
+    color: white!important;
+}
+
+.selectedbtngreen{
+    background-color: #63C05B!important;
+    color: white!important;
+}
+.maincontainer .usernamedate{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: space-between;
+}
+
+.maincontainer .usernamedate p:first-child{
+    font-weight: 600;
+}
+.maincontainer .usernamedate p:last-child{
+    color: gray;
+}
+.maincontainer .titledate{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: space-between;
+}
+
+.maincontainer .titledate > p:nth-child(1){
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+.maincontainer .titledate > p:nth-child(2){
+    cursor: pointer;
+    position: relative;
+}
+
+.maincontainer .titledate > div{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top : 6rem;
+    right: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 23px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+}
+.maincontainer .titledate > div > p{
+    margin: 0px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}   
+
+.maincontainer button{
+    width: 8rem;
+    margin-left: 2rem;
+    padding: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.maincontainer button:hover{
+    background-color: gray;
+}
+
+.pagination{
+    width: 95%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination button{
+    background-color: black;
+    width: auto;
+    padding: 10px 1rem;
+}
+.taskcontainer{
+    width: 95%;
+    margin-left: 2rem;
+    height: 60%;
+    overflow: auto;
+}
+
+.taskcontainer > p{
+    color: red;
+}
+.taskcontainer .task{
+    width: 96%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.taskcontainer .task p{
+    font-size: 12px;
+    color: gray;
+}
+.taskcontainer .task h2{
+    font-size: 1.5rem;
+    margin: 0px;
+    font-weight: 600;
+}
+.taskcontainer .task h3{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 400;
+}
+
+.duedate{
+    display: flex;
+    justify-content: space-between;
+}
+.duedate button{
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.duedate > button{
+    width: auto;
+    padding: 8px 1rem;
+    background-color: gray;
+}
+.duedate > div button{
+    width: auto;
+    padding: 8px 1rem;
+    margin-right: 8px;
+}
+.duedate > div button:first-child{
+    background-color: rgb(86, 86, 176);
+}
+.duedate > div button:first-child:hover{
+    background-color: darkblue;
+}
+.duedate > div button:nth-child(2){
+    background-color: red;
+}
+.duedate > div button:nth-child(3){
+    background-color: gray;
+}
+.duedate > div button:nth-child(2):hover{
+    background-color: darkred;
+}
+.duedate > div button:nth-child(3):hover{
+    background-color: darkgreen;
+}

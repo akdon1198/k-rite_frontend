@@ -1,0 +1,59 @@
+.maincontainer{
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    font-family: Open Sans;
+}
+
+.maincontainer > h2{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.maincontainer > div{
+    width: 27rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.maincontainer > div > img{
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    width: 1.5rem;
+}
+
+.maincontainer > div > div > img{
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    width: 1.5rem;
+    cursor: pointer;
+}
+.maincontainer input{
+    width: 23rem;
+    height: 3rem;
+    border-radius: 10px;
+    border:1px solid gray;
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-right: 2.5rem;
+}
+
+.maincontainer > button{
+    width: 27rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #17A2B8;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.maincontainer > button:hover{
+    background-color: #60afbb;
+}
+.maincontainer p{
+    color: red;
+}
